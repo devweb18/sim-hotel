@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="D:\xampp\htdocs\colombohotel\ilhamxx_hotel.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/Hotel_kusuma/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/Hotel_kusuma/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\C_admin.php"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\rekap\nota.php"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pendapatan\kamar.php"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\models\Madmin.php"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\models\Mhotel.php"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill_refund.php"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill9.php"/>
+	</lastopfiles>
+	<todoblock>
+		<todofile name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\block_frame_decorator.cls.php">
+			<todo name="TODO: What version is the best : this one or the one in List_Bullet_Renderer" pos="3;308"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\dompdf.cls.php">
+			<todo name="TODO: use the $encoding variable" pos="5;365"/>
+			<todo name="todo Take the quirksmode into account" pos="5;424"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\gd_adapter.cls.php">
+			<todo name="@todo" pos="5;409"/>
+			<todo name="@todo" pos="5;416"/>
+			<todo name="@todo" pos="5;420"/>
+			<todo name="@todo" pos="5;424"/>
+			<todo name="@todo" pos="5;428"/>
+			<todo name="@todo" pos="5;432"/>
+			<todo name="@todo" pos="5;436"/>
+			<todo name="@todo" pos="5;440"/>
+			<todo name="@todo" pos="5;444"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\list_bullet_image_frame_decorator.cls.php">
+			<todo name="Todo: Where can the box size be extended" pos="5;97"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\list_bullet_positioner.cls.php">
+			<todo name="Todo:" pos="2;98"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\stylesheet.cls.php">
+			<todo name="TODO" pos="28;465"/>
+			<todo name="TODO" pos="30;466"/>
+			<todo name="Todo:Reason is unknown" pos="11;911"/>
+			<todo name="Todo: As above, do we need to replace php or file to an empty protocol for local files" pos="7;1026"/>
+			<todo name="@todo download font file, ttf2afm, etc" pos="5;1061"/>
+			<todo name="@todo: fix the regex so that it works everytime" pos="7;1082"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\table_cell_renderer.cls.php">
+			<todo name="@todo Add support for outlines here" pos="5;76"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\text_frame_reflower.cls.php">
+			<todo name="@todo support &lt;shy&gt;, &lt;wbr&gt;" pos="5;125"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\text_renderer.cls.php">
+			<todo name="@todo Could we get font info for PDFlib adapter and others" pos="7;127"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\ttf_info.cls.php">
+			<todo name="todo: Make it Retrieve additional information from other tables" pos="4;16"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\class.pdf.php">
+			<todo name="TODO - need to support Unicode" pos="5;3764"/>
+			<todo name="@todo is it still needed" pos="7;4326"/>
+			<todo name="Todo:" pos="6;4663"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\core\Loader.php">
+			<todo name="todo Figure out a way to move this to the constructor" pos="5;148"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\core\Output.php">
+			<todo name="todo We need to figure out how to permit headers to be cached." pos="5;200"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\database\DB_forge.php">
+			<todo name="todo Remove deprecated $_after option in 3.1+" pos="5;557"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\database\DB_query_builder.php">
+			<todo name="@todo error" pos="4;1986"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite3\sqlite3_driver.php">
+			<todo name="todo Implement use of SQLite3::querySingle(), if needed" pos="5;120"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite3\sqlite3_forge.php">
+			<todo name="todo implement drop_column(), modify_column()" pos="5;135"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite\sqlite_forge.php">
+			<todo name="todo implement drop_column(), modify_column()" pos="5;115"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\helpers\date_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;134"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\helpers\file_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;58"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\helpers\security_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;89"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\helpers\string_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;64"/>
+			<todo name="todo: remove in 3.1+" pos="19;231"/>
+			<todo name="todo: remove in 3.1+" pos="20;234"/>
+			<todo name="todo Remove in version 3.1+." pos="5;294"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\helpers\url_helper.php">
+			<todo name="todo Remove old 'dash' and 'underscore' usage in 3.1+." pos="5;472"/>
+		</todofile>
+		<todofile name="D:\xampp\htdocs\colombohotel\system\libraries\Xmlrpc.php">
+			<todo name="@todo - this needs to be made more general purpose" pos="6;1574"/>
+		</todofile>
+	</todoblock>
+	<dbgurls>
+	</dbgurls>
+	<filescache>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Session\drivers\Session_redis_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Session\drivers\Session_memcached_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Session\drivers\Session_files_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Session\drivers\Session_database_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Session\drivers\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Session\SessionHandlerInterface.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Session\Session_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Session\Session.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Session\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Javascript\Jquery.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Javascript\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Cache\drivers\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Cache\drivers\Cache_wincache.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Cache\drivers\Cache_redis.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Cache\drivers\Cache_memcached.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Cache\drivers\Cache_file.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Cache\drivers\Cache_dummy.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Cache\drivers\Cache_apc.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Cache\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Cache\Cache.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Zip.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Xmlrpcs.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Xmlrpc.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\User_agent.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Upload.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Unit_test.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Typography.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Trackback.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Table.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Profiler.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Pdf.php" crc="1476813396"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Parser.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Pagination.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Migration.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Javascript.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Image_lib.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Ftp.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Form_validation.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Encryption.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Encrypt.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Email.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Cart.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\libraries\Calendar.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\upload_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\unit_test_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\profiler_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\pagination_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\number_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\migration_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\imglib_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\ftp_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\form_validation_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\email_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\db_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\date_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\english\calendar_lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\language\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\xml_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\url_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\typography_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\text_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\string_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\smiley_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\security_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\path_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\number_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\language_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\inflector_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\html_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\form_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\file_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\email_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\download_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\directory_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\date_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\cookie_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\captcha_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\helpers\array_helper.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\fonts\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlsrv\sqlsrv_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlsrv\sqlsrv_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlsrv\sqlsrv_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlsrv\sqlsrv_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlsrv\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite3\sqlite3_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite3\sqlite3_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite3\sqlite3_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite3\sqlite3_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite3\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite\sqlite_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite\sqlite_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite\sqlite_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite\sqlite_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\sqlite\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\postgre\postgre_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\postgre\postgre_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\postgre\postgre_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\postgre\postgre_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\postgre\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_sqlite_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_sqlite_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_pgsql_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_pgsql_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_odbc_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_odbc_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_oci_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_oci_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_mysql_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_mysql_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_informix_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_informix_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_ibm_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_ibm_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_firebird_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_firebird_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_dblib_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_dblib_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_cubrid_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_cubrid_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_4d_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\pdo_4d_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\subdrivers\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\pdo_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\pdo_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\pdo_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\pdo_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\pdo\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\odbc\odbc_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\odbc\odbc_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\odbc\odbc_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\odbc\odbc_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\odbc\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\oci8\oci8_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\oci8\oci8_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\oci8\oci8_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\oci8\oci8_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\oci8\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mysqli\mysqli_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mysqli\mysqli_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mysqli\mysqli_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mysqli\mysqli_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mysqli\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mysql\mysql_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mysql\mysql_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mysql\mysql_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mysql\mysql_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mysql\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mssql\mssql_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mssql\mssql_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mssql\mssql_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mssql\mssql_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\mssql\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\ibase\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\ibase\ibase_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\ibase\ibase_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\ibase\ibase_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\ibase\ibase_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\cubrid\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\cubrid\cubrid_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\cubrid\cubrid_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\cubrid\cubrid_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\cubrid\cubrid_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\drivers\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\DB_utility.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\DB_result.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\DB_query_builder.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\DB_forge.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\DB_driver.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\DB_cache.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\database\DB.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\compat\standard.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\compat\password.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\compat\mbstring.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\compat\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\compat\hash.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Utf8.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\URI.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Security.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Router.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Output.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Model.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Log.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Loader.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Lang.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Input.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Hooks.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Exceptions.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Controller.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Config.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Common.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\CodeIgniter.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\core\Benchmark.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\system\.htaccess" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\js_b3\npm.js" crc="1469476410"/>
+		<file name="D:\xampp\htdocs\colombohotel\js_b3\bootstrap.min.js" crc="1469476410"/>
+		<file name="D:\xampp\htdocs\colombohotel\js_b3\bootstrap.js" crc="1469476408"/>
+		<file name="D:\xampp\htdocs\colombohotel\jasny-bootstrap\js\jasny-bootstrap.min.js" crc="1399366698"/>
+		<file name="D:\xampp\htdocs\colombohotel\jasny-bootstrap\js\jasny-bootstrap.js" crc="1399366698"/>
+		<file name="D:\xampp\htdocs\colombohotel\jasny-bootstrap\js\bootstrap.js" crc="1475291384"/>
+		<file name="D:\xampp\htdocs\colombohotel\jasny-bootstrap\css\jasny-bootstrap.min.css" crc="1399366698"/>
+		<file name="D:\xampp\htdocs\colombohotel\jasny-bootstrap\css\jasny-bootstrap.css" crc="1399366698"/>
+		<file name="D:\xampp\htdocs\colombohotel\jasny-bootstrap\css\bootstrap.css" crc="1475291232"/>
+		<file name="D:\xampp\htdocs\colombohotel\jasny-bootstrap\navmenu.css" crc="1475292546"/>
+		<file name="D:\xampp\htdocs\colombohotel\css_b3\bootstrap.min.css" crc="1469476408"/>
+		<file name="D:\xampp\htdocs\colombohotel\css_b3\bootstrap.css" crc="1469476408"/>
+		<file name="D:\xampp\htdocs\colombohotel\css_b3\bootstrap-theme.min.css" crc="1469476408"/>
+		<file name="D:\xampp\htdocs\colombohotel\css_b3\bootstrap-theme.css" crc="1469476408"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\utils\validate.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\utils\mctabs.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\utils\mclayer.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\utils\form_utils.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\utils\editable_selects.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\simple\skins\o2k7\ui.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\simple\skins\o2k7\content.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\simple\skins\default\ui.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\simple\skins\default\content.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\simple\langs\en.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\simple\editor_template_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\simple\editor_template.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\skins\o2k7\ui_silver.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\skins\o2k7\ui_black.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\skins\o2k7\ui.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\skins\o2k7\dialog.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\skins\o2k7\content.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\skins\default\ui.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\skins\default\dialog.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\skins\default\content.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\langs\en.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\js\source_editor.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\js\link.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\js\image.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\js\color_picker.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\js\charmap.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\js\anchor.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\js\about.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\source_editor.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\link.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\image.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\editor_template_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\editor_template.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\color_picker.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\charmap.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\anchor.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\themes\advanced\about.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\js\ins.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\js\element_common.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\js\del.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\js\cite.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\js\attributes.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\js\acronym.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\js\abbr.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\css\xhtmlxtras.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\css\popup.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\css\attributes.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\ins.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\del.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\cite.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\attributes.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\acronym.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\xhtmlxtras\abbr.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\visualchars\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\visualchars\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\template\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\template\js\template.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\template\css\template.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\template\template.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\template\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\template\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\template\blank.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\js\table.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\js\row.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\js\merge_cells.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\js\cell.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\css\table.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\css\row.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\css\cell.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\table.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\row.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\merge_cells.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\table\cell.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\style\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\style\js\props.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\style\css\props.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\style\props.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\style\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\style\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\spellchecker\css\content.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\spellchecker\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\spellchecker\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\searchreplace\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\searchreplace\js\searchreplace.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\searchreplace\css\searchreplace.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\searchreplace\searchreplace.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\searchreplace\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\searchreplace\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\save\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\save\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\safari\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\safari\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\safari\blank.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\print\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\print\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\preview\jscripts\embed.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\preview\example.html" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\preview\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\preview\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\paste\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\paste\js\pasteword.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\paste\js\pastetext.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\paste\css\pasteword.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\paste\css\blank.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\paste\pasteword.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\paste\pastetext.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\paste\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\paste\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\paste\blank.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\pagebreak\css\content.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\pagebreak\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\pagebreak\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\noneditable\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\noneditable\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\nonbreaking\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\nonbreaking\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\media\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\media\js\media.js" crc="1457021728"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\media\js\embed.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\media\css\media.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\media\css\content.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\media\media.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\media\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\media\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\layer\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\layer\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\insertdatetime\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\insertdatetime\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\inlinepopups\skins\clearlooks2\window.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\inlinepopups\template.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\inlinepopups\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\inlinepopups\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\iespell\editor_plugin_src.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\iespell\editor_plugin.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\fullscreen\fullscreen.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\fullscreen\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\fullscreen\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\fullpage\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\fullpage\js\fullpage.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\fullpage\css\fullpage.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\fullpage\fullpage.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\fullpage\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\fullpage\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\example\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\example\langs\en.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\example\js\dialog.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\example\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\example\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\example\dialog.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\emotions\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\emotions\js\emotions.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\emotions\emotions.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\emotions\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\emotions\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\directionality\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\directionality\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\contextmenu\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\contextmenu\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\compat2x\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\compat2x\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\bbcode\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\bbcode\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\autosave\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\autosave\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advlink\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advlink\js\advlink.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advlink\css\advlink.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advlink\link.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advlink\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advlink\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advimage\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advimage\js\image.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advimage\css\advimage.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advimage\image.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advimage\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advimage\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advhr\langs\en_dlg.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advhr\js\rule.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advhr\css\advhr.css" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advhr\rule.htm" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advhr\editor_plugin_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\plugins\advhr\editor_plugin.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\langs\en.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\tiny_mce_src.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\tiny_mce_popup.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\tiny_mce.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tiny_mce\license.txt" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\ui\jquery.ui.widget.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\ui\jquery.ui.resizable.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\ui\jquery.ui.position.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\ui\jquery.ui.mouse.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\ui\jquery.ui.draggable.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\ui\jquery.ui.dialog.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\ui\jquery.ui.core.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\ui\jquery.ui.button.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\ui\jquery.effects.core.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\snowfall.min.jquery.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\richhtmlticker.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\jquery.validate.pack.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\jquery.jmpopups-0.5.1.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\jquery.hovertip.min.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\jquery.hovertip.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\jquery.colorize-2.0.0.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\jquery.clearfield.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\jquery.bgiframe-2.1.2.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\ajaxupload.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\plugin\ajaxupload.3.5.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\modules\exporting.js" crc="1457021730"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\unittest.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\tabcontent.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\supra_blink.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\slideshow.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\slider.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\scriptaculous.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\script.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\prototype.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\newscript.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery.roundabout-shapes-1.1.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery.roundabout-1.0.min.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery.min.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery.fancybox.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery.easing.1.3.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery.cycle.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery-ui-1.8.23.custom.min.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery-1.8.0.min.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery-1.7.2.min.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery-1.7.2.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery-1.4.2.min.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\jquery-1.2.6.min.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\holder.js" crc="1394063184"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\highslide-with-html.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\highcharts.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\flexdropdown.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\effects.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\dragdrop.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\DD_belatedPNG_0.0.8a-min.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\customtools.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\controls.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\contact.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\coin-slider.min.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\builder.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap.min.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-typeahead.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-transition.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-tooltip.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-tab.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-scrollspy.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-popover.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-modal.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-dropdown.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-combobox.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-collapse.js" crc="1408832640"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-carousel.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-button.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\bootstrap-alert.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\alice.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\ajaxgold.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\ajax-paging.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\js\accordion.js" crc="1408832638"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\bootstrap.css" crc="1383317088"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3_login\bootstrap-responsive.css" crc="1374897048"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3\navbar.css" crc="1478059336"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3\momentv2.js" crc="1475728276"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3\jquery-2.1.1.min.js" crc="1475726560"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3\holder.js" crc="1408832636"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3\datepickerv2.css" crc="1475726562"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3\datepicker.css" crc="1408832636"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3\bootstrap331.js" crc="1475726558"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3\bootstrap331.css" crc="1475726558"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3\bootstrap-datepickerv2.js" crc="1475726562"/>
+		<file name="D:\xampp\htdocs\colombohotel\boot3\bootstrap-datepicker.js" crc="1408832636"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\sewa\beranda.php" crc="1475545024"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\pesan_kamar_simlasi.php" crc="1492614145"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\pesan_kamar_lain.php" crc="1491321119"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\pesan_kamar.php" crc="1492614173"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\pesan_bar.php" crc="1491321117"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\input_tagihan.php" crc="1480473578"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\daftar_tunggakan_kamar.php" crc="1492614149"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cetakawal.php" crc="1484844756"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_kamar.php" crc="1495385605"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_boking_kamar.php" crc="1486146210"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill9_v1.php" crc="1520072529"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill9.php" crc="1520157504"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill8_old.php" crc="1490484822"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill8.php" crc="1492614143"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill7.php" crc="1489338300"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill6.php" crc="1488305866"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill5.php" crc="1482767118"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill4.php" crc="1480473574"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill3.php" crc="1480473572"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill2_old.php" crc="1477361990"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill2.php" crc="1477401174"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill_refund.php" crc="1520173341"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill_nul.php" crc="1480473576"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\cek_bill.php" crc="1480473572"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\book_kamar.php" crc="1489980246"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\beranda.php" crc="1480473570"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\resepsionis\awal.php" crc="1480473570"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\html\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\html\error_php.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\html\error_general.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\html\error_exception.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\html\error_db.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\html\error_404.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\cli\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\cli\error_php.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\cli\error_general.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\cli\error_exception.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\cli\error_db.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\cli\error_404.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\errors\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\deposit_pdf.php" crc="1493996891"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\deposit_html.php" crc="1493996851"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\bill_xls2.php" crc="1520165779"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\bill_xls_sim.php" crc="1493996795"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\bill_xls.php" crc="1484844860"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\bill_pdf2.php" crc="1520165781"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\bill_pdf_sim.php" crc="1493996796"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\bill_pdf.php" crc="1490813120"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\bill_html3_v1.php" crc="1520070685"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\bill_html3.php" crc="1520165752"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\bill_html2_5.php" crc="1489507618"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\bill_html2.php" crc="1477361440"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\bill_html_sim.php" crc="1493996809"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\cetak\bill_html.php" crc="1488585494"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\rekap\nota_v1.php" crc="1520171482"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\rekap\nota.php" crc="1520173175"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pendapatan\refund.php" crc="1491321142"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pendapatan\lain.php" crc="1482767808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pendapatan\kamar_v1.php" crc="1520167936"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pendapatan\kamar_revkxh.php" crc="1490465264"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pendapatan\kamar_pk_deposit.php" crc="1482767808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pendapatan\kamar.php" crc="1520173117"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pendapatan\dapur_old.php" crc="1484844798"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pendapatan\dapur.php" crc="1492614075"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pass\pe_pass.php" crc="1492614101"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pass\ganti_pass.php" crc="1492614102"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pass\all_resepsionis.php" crc="1492614100"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\kamar\harga.php" crc="1492614089"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\bln\sep.php" crc="1490669262"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\bln\okt.php" crc="1490669282"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\bln\nov.php" crc="1490669326"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\bln\mei.php" crc="1490669176"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\bln\mar.php" crc="1490668872"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\bln\jun.php" crc="1490669200"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\bln\jul.php" crc="1490669218"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\bln\jan.php" crc="1490669110"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\bln\feb.php" crc="1490669152"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\bln\des.php" crc="1490669378"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\bln\aug.php" crc="1490669236"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\bln\apr.php" crc="1490669054"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pengeluaran.php" crc="1479475224"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\pendapatan.php" crc="1492614051"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\beranda.php" crc="1491185846"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\awal_shifs.php" crc="1489951130"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\admin\awal.php" crc="1482767142"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\welcome_message.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\up_info.php" crc="1471834952"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\nav_sewa.php" crc="1479474196"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\nav_admin.php" crc="1492614037"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\nav.php" crc="1495197421"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\loginsimakuadmin.php" crc="1482765544"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\loginsimaku.php" crc="1492142561"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\header.php" crc="1484844708"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\footer.php" crc="1486146132"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\views\beranda.php" crc="1484844706"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\ttf2ufm\src\other\README.html" crc="1476813790"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\ttf2ufm\src\other\lst.pl" crc="1476813788"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\ttf2ufm\src\other\cntstems.pl" crc="1476813786"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\ttf2ufm\src\encodings\README.html" crc="1476813752"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\ttf2ufm\src\app\X11\README.html" crc="1476813854"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\ttf2ufm\src\app\TeX\README.html" crc="1476813846"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\ttf2ufm\src\app\netscape\README.html" crc="1476813828"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\ttf2ufm\src\README.html" crc="1476813730"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\ttf2ufm\src\FONTS.html" crc="1476813718"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\ttf2ufm\src\FONTS.hpux.html" crc="1476813716"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\ttf2ufm\src\CHANGES.html" crc="1476813712"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\ttf2ufm\README.TXT" crc="1476813698"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\res\html.css" crc="1476813692"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\fonts\Times-Roman.afm.php" crc="1476813684"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\fonts\Times-BoldItalic.afm.php" crc="1476813678"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\fonts\Times-Bold.afm.php" crc="1476813676"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\fonts\mustRead.html" crc="1476813670"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\fonts\log.htm" crc="1520165586"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\fonts\Helvetica.afm.php" crc="1476813668"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\fonts\Helvetica-Bold.afm.php" crc="1476813662"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\fonts\dompdf_font_family_cache.dist.php" crc="1476813658"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\fonts\Courier.afm.php" crc="1476813658"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\lib\class.pdf.php" crc="1476813650"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\ttf_info.cls.php" crc="1476813642"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\text_renderer.cls.php" crc="1476813640"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\text_frame_reflower.cls.php" crc="1476813640"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\text_frame_decorator.cls.php" crc="1476813638"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\tcpdf_adapter.cls.php" crc="1476813638"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\table_row_positioner.cls.php" crc="1476813636"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\table_row_group_frame_reflower.cls.php" crc="1476813636"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\table_row_group_frame_decorator.cls.php" crc="1476813634"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\table_row_frame_reflower.cls.php" crc="1476813634"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\table_row_frame_decorator.cls.php" crc="1476813632"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\table_frame_reflower.cls.php" crc="1476813632"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\table_frame_decorator.cls.php" crc="1476813630"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\table_cell_renderer.cls.php" crc="1476813630"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\table_cell_positioner.cls.php" crc="1476813628"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\table_cell_frame_reflower.cls.php" crc="1476813626"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\table_cell_frame_decorator.cls.php" crc="1476813626"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\stylesheet.cls.php" crc="1476813624"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\style.cls.php" crc="1476813624"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\renderer.cls.php" crc="1476813620"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\positioner.cls.php" crc="1476813620"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\php_evaluator.cls.php" crc="1476813618"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\pdflib_adapter.cls.php" crc="1476813618"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\page_frame_reflower.cls.php" crc="1476813616"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\page_frame_decorator.cls.php" crc="1476813614"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\page_cache.cls.php" crc="1476813614"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\null_positioner.cls.php" crc="1476813612"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\null_frame_reflower.cls.php" crc="1476813612"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\null_frame_decorator.cls.php" crc="1476813610"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\list_bullet_renderer.cls.php" crc="1476813610"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\list_bullet_positioner.cls.php" crc="1476813608"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\list_bullet_image_frame_decorator.cls.php" crc="1476813608"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\list_bullet_frame_reflower.cls.php" crc="1476813606"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\list_bullet_frame_decorator.cls.php" crc="1476813606"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\javascript_embedder.cls.php" crc="1476813604"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\inline_renderer.cls.php" crc="1476813604"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\inline_positioner.cls.php" crc="1476813604"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\inline_frame_reflower.cls.php" crc="1476813602"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\inline_frame_decorator.cls.php" crc="1476813602"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\image_renderer.cls.php" crc="1476813600"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\image_frame_reflower.cls.php" crc="1476813600"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\image_frame_decorator.cls.php" crc="1476813598"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\image_cache.cls.php" crc="1476813598"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\gd_adapter.cls.php" crc="1476813596"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\functions.inc.php" crc="1476813596"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\frame_tree.cls.php" crc="1476813592"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\frame_reflower.cls.php" crc="1476813592"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\frame_factory.cls.php" crc="1476813590"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\frame_decorator.cls.php" crc="1476813588"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\frame.cls.php" crc="1476813588"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\font_metrics.cls.php" crc="1476813586"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\fixed_positioner.cls.php" crc="1476813584"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\dompdf_internal_exception.cls.php" crc="1476813582"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\dompdf_exception.cls.php" crc="1476813582"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\dompdf.cls.php" crc="1476813582"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\css_color.cls.php" crc="1476813580"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\cpdf_adapter.cls.php" crc="1476813578"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\cellmap.cls.php" crc="1476813576"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\canvas_factory.cls.php" crc="1476813576"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\canvas.cls.php" crc="1476813574"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\cached_pdf_decorator.cls.php" crc="1476813574"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\block_renderer.cls.php" crc="1476813572"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\block_positioner.cls.php" crc="1476813572"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\block_frame_reflower.cls.php" crc="1476813570"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\block_frame_decorator.cls.php" crc="1476813568"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\attribute_translator.cls.php" crc="1476813566"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\abstract_renderer.cls.php" crc="1476813566"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\include\absolute_positioner.cls.php" crc="1476813564"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\load_font.php" crc="1476813556"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\index.php" crc="1476813554"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\dompdf_config.inc.php" crc="1476813554"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\dompdf_config.custom.inc.php" crc="1476813552"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\dompdf\dompdf.php" crc="1476813552"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\third_party\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\models\Minfo.php" crc="1475181426"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\models\Mhotel_rev.php" crc="1488658608"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\models\Mhotel.php" crc="1520156122"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\models\Madmin_v1.php" crc="1520166247"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\models\Madmin.php" crc="1520172571"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\models\Login_model.php" crc="1492614014"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\models\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\logs\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\libraries\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\language\english\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\language\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\hooks\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\helpers\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\core\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\Welcome.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\Login_no_db.php" crc="1491185898"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\Login.php" crc="1495385201"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\C_sewa.php" crc="1483532702"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\C_resepsionis_v1.php" crc="1520069437"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\C_resepsionis_sim.php" crc="1493609059"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\C_resepsionis.php" crc="1520158353"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\C_cetak_sim.php" crc="1492613955"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\C_cetak.php" crc="1520165167"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\C_admin.php" crc="1492613987"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\controllers\Admin.php" crc="1478059298"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\user_agents.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\smileys.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\routes.php" crc="1479473972"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\profiler.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\mimes.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\migration.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\memcached.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\hooks.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\foreign_chars.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\doctypes.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\database.php" crc="1519716107"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\constants.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\config.php" crc="1519716338"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\config\autoload.php" crc="1475287452"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\cache\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\cache\.htaccess" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\index.html" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\application\.htaccess" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\license.txt" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\index.php" crc="1469543808"/>
+		<file name="D:\xampp\htdocs\colombohotel\.htaccess" crc="1492615263"/>
+	</filescache>
+</project>
