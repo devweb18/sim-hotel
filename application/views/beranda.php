@@ -27,5 +27,6 @@ $this->load->view('nav_admin');
     <hr/>
     <?php $this->load->view('footer')?>
     
+    
   </body>
 </html>
