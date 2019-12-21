@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	//'username' => 'supracen_admin',
+	
 	'username' => 'root',
-	//'password' => 'g=*koW%{iUK]',
+	
 	'password' => '',
 	'database' => 'supracen_db_hotel_colombo',
 	'dbdriver' => 'mysqli',
